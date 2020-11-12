@@ -1,0 +1,5 @@
+mv /etc/prosody/conf.avail/meet.example.com.cfg.lua /etc/prosody/conf.avail/meet.example.com.cfg.lua.old
+ln -s /etc/meet.example.com/configfiles/etc_prosody_conf.avail_meet.example.com.cfg /etc/prosody/conf.avail/meet.example.com.cfg.lua
+mv /etc/jitsi/meet/meet.example.com-config.js /etc/jitsi/meet/meet.example.com-config.js.old
+ln -s /etc/meet.example.com/configfiles/etc_jitsi_meet_meet.example.com-config.js /etc/jitsi/meet/meet.example.com-config.js
+
